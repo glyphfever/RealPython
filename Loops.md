@@ -26,7 +26,8 @@ print (f"c count: {ccount}")
 ```python
 num = 75869
 count = 0
-
+# // 10 chops off the last digit. It tells you "how many tens fit into this number."
+# % 10 extracts only the last digit. It tells you "what is left over."
 while num != 0:
     num = num // 10
     count += 1
