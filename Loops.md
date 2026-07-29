@@ -62,7 +62,8 @@ print(min)
 print(max)
 ```
 
-'''python
+```python
+#16
 num: int = 121
 original_num = 121
 final: int = 0
