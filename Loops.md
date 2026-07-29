@@ -62,3 +62,20 @@ print(min)
 print(max)
 ```
 
+'''python
+num: int = 121
+original_num = 121
+final: int = 0
+
+while num != 0:
+    digit = num % 10
+    final = (final * 10) + digit
+    num = num // 10
+
+if original_num == final:
+    print("Yes")
+else:
+    print("No")
+    print(final)
+```
+
