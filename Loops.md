@@ -34,3 +34,31 @@ while num != 0:
 print(f"Total digits are: {count}")
 ```
 
+```python
+num = 76542
+final = 0
+
+while num != 0:
+    digit = num % 10
+    final = (final * 10) + digit
+    num = num // 10
+    
+print(final)
+```
+
+```python
+num = 75869
+min = 9
+max = 0
+
+while num != 0:
+    digit = num % 10
+    if digit < min:
+        min = digit
+    if digit > max:
+        max = digit
+    num = num // 10
+print(min)
+print(max)
+```
+
