@@ -90,5 +90,53 @@ print(factorial)
 ```
 
 ```python
+# 18, Collatz conjecture
+n = 6
+while n != 1:
+    if n % 2 == 0:
+        n = n // 2
+    else:
+        n = 3 * n + 1
+    print(f", {n}", end=""
+```
 
+```python
+"""
+#19, Practice Problem: Write a program to check if a number is an Armstrong number. An Armstrong number (for a 3-digit number) is an integer such that the sum of the cubes of its digits is equal to the number itself (e.g., 153 = 1^3 + 5^3 + 3^3).
+"""
+#Enter Python code here and hit the Run button 
+n=153
+n_str = str(n)
+total = 0
+for i in n_str:
+    total = total + int(i) ** 3
+
+if total == n:
+    print("Yes")
+else:
+    print("No")
+
+```
+
+```python
+#20
+i=1
+j=1
+while i <= 5:
+    j = 1
+    while j <= i:
+        print(f"{j}", end="")
+        j += 1
+    print()
+    i+= 1
+```
+
+```python
+#21
+n=5
+for i in range(5, 0, -1):
+    j=i
+    for j in range(j, 0, -1):
+        print(f"{j}", end ="")
+    print()
 ```
