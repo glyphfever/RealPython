@@ -142,11 +142,13 @@ for i in range(5, 0, -1):
 ```
 
 ```python
+#22
 for i in range(1,21,2):
     print(f"{i} ", end="")
 ```
 
 ```python
+#23
 import string
 rows = 5
 values = string.ascii_uppercase[:rows]
@@ -157,6 +159,7 @@ for idx, letter in enumerate(values):
 ```
 
 ```python
+#24
 size = 5
 for i in range(1, size+1, 1):
     if i == 1 or i == size:
