@@ -140,3 +140,29 @@ for i in range(5, 0, -1):
         print(f"{j}", end ="")
     print()
 ```
+
+```python
+for i in range(1,21,2):
+    print(f"{i} ", end="")
+```
+
+```python
+import string
+rows = 5
+values = string.ascii_uppercase[:rows]
+
+for idx, letter in enumerate(values):
+    repeat_count = idx + 1
+    print(letter * repeat_count)
+```
+
+```python
+size = 5
+for i in range(1, size+1, 1):
+    if i == 1 or i == size:
+        print("* " * size)
+    else:
+        print("* " + "  " * (size - 2) + "* ")
+
+```
+
