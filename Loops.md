@@ -166,6 +166,34 @@ for i in range(1, size+1, 1):
         print("* " * size)
     else:
         print("* " + "  " * (size - 2) + "* ")
-
 ```
 
+```python
+#25
+rows = 5
+for i in range(1, rows + 1, 1):
+    print("* " * i)
+
+for j in range(rows-1, 0, -1):
+    print("* " * j)
+```
+
+```python
+#26
+for i in range(1, 11, 1):
+    for j in range(1, 11, 1):
+        print(f"{j * i} ", end ="")
+    print()
+```
+
+```python
+#27
+_list = [1,2,3,4]
+_newList = []
+_sum = 0
+for i in _list:
+    _sum = _sum + i
+    _newList.append(_sum)
+print(_newList)
+    
+```
