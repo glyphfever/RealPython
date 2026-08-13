@@ -197,3 +197,57 @@ for i in _list:
 print(_newList)
     
 ```
+
+```python
+#Enter Python code here and hit the Run button 
+#28, dictionary iteration
+scores = {"Alice": 85, "Bob": 70, "Charlie": 95, "David": 60}
+threshold = 75
+passing = {}
+for name, score in scores.items():
+    if score >= threshold:
+        passing[name] = score
+print(passing)
+
+```
+
+```python
+#29, find common elements
+list_a = [1, 2, 3, 4, 5]
+list_b = [4, 5, 6, 7, 8]
+common = []
+
+for i in list_a:
+    for j in list_b:
+        if i == j:
+            common.append(i)
+print(common)
+
+# 2
+common2 = list(set(list_a).intersection(list_b))
+print(common2)
+# 3
+common3 = list(set(list_a)&set(list_b))
+print(common3)
+
+list_a3 = [10, 20, 30]
+
+# i is the index, value is the actual item
+for i, value in enumerate(list_a3):
+    print(f"Index: {i}, Value: {value}")
+```
+
+```python
+#30, remove dups without set
+orig_list = [1, 2, 2, 3, 4, 4, 4, 5]
+unique_list = set(orig_list)
+unique_list2 = []
+print(unique_list)
+
+for i in orig_list:
+    if i not in unique_list2:
+        unique_list2.append(i)
+print(unique_list2)
+
+```
+
