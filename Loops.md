@@ -250,4 +250,14 @@ for i in orig_list:
 print(unique_list2)
 
 ```
-
+'''python
+#32
+nums = [1, 2, 3, 4, 5]
+k = 2
+left = []
+right = []
+if k > 0:
+    left = nums[:k]
+    right = nums[k:]
+print(right + left)
+```
