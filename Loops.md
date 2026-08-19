@@ -250,7 +250,7 @@ for i in orig_list:
 print(unique_list2)
 
 ```
-'''python
+```python
 #32
 nums = [1, 2, 3, 4, 5]
 k = 2
@@ -260,4 +260,14 @@ if k > 0:
     left = nums[:k]
     right = nums[k:]
 print(right + left)
+```
+
+```python
+#Enter Python code here and hit the Run button
+text = "apple banana apple orange banana apple"
+word_list = text.split(" ")
+unique_list = list(dict.fromkeys(text))
+dictionary = {}
+for i in word_list:
+
 ```
