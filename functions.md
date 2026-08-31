@@ -11,3 +11,15 @@ func1(20, 40, 60)
 func1(80, 100)
 ```
 
+```python
+def calculation(a, b):
+    
+    add = a + b
+    sub = a - b
+    
+    return add, sub
+res = calculation(40,10)
+print(res)
+```
+
+
