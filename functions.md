@@ -22,4 +22,12 @@ res = calculation(40,10)
 print(res)
 ```
 
-
+```python
+def show_employee(emp_name, salary=9000):
+    
+    label = "Name="+ emp_name + " salary=" + str(salary)
+    
+    return label
+print(show_employee("Ben",12000) )
+print(show_employee("Jessa"))
+```
