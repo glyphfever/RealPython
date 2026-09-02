@@ -31,3 +31,18 @@ def show_employee(emp_name, salary=9000):
 print(show_employee("Ben",12000) )
 print(show_employee("Jessa"))
 ```
+
+```python
+# inner function
+def outer_func(a, b):
+    def inner_func():
+        val = a + b + 5
+        return val
+    
+    res = inner_func()
+    return res
+
+print(outer_func(5,10))
+
+```
+
