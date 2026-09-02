@@ -33,7 +33,7 @@ print(show_employee("Jessa"))
 ```
 
 ```python
-# inner function
+# 5 inner function
 def outer_func(a, b):
     def inner_func():
         val = a + b + 5
@@ -45,4 +45,16 @@ def outer_func(a, b):
 print(outer_func(5,10))
 
 ```
+
+```python
+# 6 recursive function
+def addition(num):
+    if num > 0:
+        return num + addition(num - 1)
+    else:
+        return 0
+res = addition(10)
+print(res)
+```
+
 
