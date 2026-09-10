@@ -64,5 +64,17 @@ def display_student(name, age):
 show_student = display_student
 show_student("Emma" , 25)
 ```
+```python
+#8
+def EvenNumberGenerator():
+    list = range(4, 30)
+    evenList = []
+    for i in list:
+        if i  % 2 == 0:
+            evenList.append(i)
+    return evenList           
+            
+print(EvenNumberGenerator())
+```
 
 
