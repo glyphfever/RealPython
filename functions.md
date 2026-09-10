@@ -76,5 +76,18 @@ def EvenNumberGenerator():
             
 print(EvenNumberGenerator())
 ```
+```python
+#9
+def LargestItem():
+    list = [4, 6, 8, 24, 12, 2]
+    theOne = 0
+    for i in list:
+        if i > theOne:
+            theOne = i
+    return theOne           
+            
+print(LargestItem())
+```
+
 
 
