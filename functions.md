@@ -89,5 +89,20 @@ def LargestItem():
 print(LargestItem())
 ```
 
+```python
+# 10
+def describe_pet(animal_type, pet_name):
+    print(f"I have a {animal_type}")
+    print(f"My {animal_type}'s name is {pet_name}")
+            
+# Call 1 (Positional): "hamster", "Harry"
+describe_pet("hamster", "Harry")
+
+# Call 2 (Keyword): animal_type="dog", pet_name="Willie"
+describe_pet(animal_type="dog", pet_name="Willie")
+```
+
+
+
 
 
